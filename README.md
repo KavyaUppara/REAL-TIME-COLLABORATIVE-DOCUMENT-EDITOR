@@ -57,6 +57,8 @@ Every 2 seconds, the editor state is automatically saved to MongoDB.
 
 Any user reloading the page sees the latest version of the document.
 
+![Image](https://github.com/user-attachments/assets/71207d08-99f3-4993-8026-7107f1e3eb5f)
+
 
 
 
