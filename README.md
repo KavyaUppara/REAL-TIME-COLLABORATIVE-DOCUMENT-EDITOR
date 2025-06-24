@@ -1,3 +1,68 @@
+
+COMPANY NAME:CODTECH IT SOLUTIONS
+
+"NAME":UPPARA KAVYA
+
+"INTERN ID"::CT04DN1262
+
+"DOMAIN":FULL STACK WEB DEVELOPMENT
+
+"DURATION": 4 WEEKS
+
+"MENTOR": NEELA SANTOSH
+
+
+Description:
+A Google Docs-like web application that allows multiple users to collaborate and edit documents in real-time. The app uses React.js for the frontend, Node.js with Socket.IO for real-time communication, and MongoDB to persist document content.
+
+Users can create, share, and edit documents simultaneously, with all changes synced live across connected clients.
+
+🚀 Features:
+✍️ Rich text editor using Quill.js
+
+🔁 Real-time collaboration using Socket.IO
+
+📦 Document auto-saving every few seconds to MongoDB
+
+🌐 Unique shareable URL for each document (via UUID)
+
+🧩 Scalable architecture with separate frontend and backend
+
+🛠️ Tech Stack:
+Layer	Technology
+Frontend	React.js, Quill.js, React Router
+Backend	Node.js, Express.js, Socket.IO
+Database	MongoDB + Mongoose
+Realtime	WebSockets (via Socket.IO)
+Routing	React Router DOM
+
+📁 Folder Structure:
+pgsql
+Copy
+Edit
+collab-docs/
+├── client/         # React frontend
+│   └── src/
+│       ├── App.js
+│       └── index.js
+├── server/         # Node.js backend
+│   ├── index.js
+│   └── Document.js
+🎯 How it works:
+When a user visits /docs/:id, a unique document is created or loaded.
+
+All connected users in the same document room see changes in real-time.
+
+Every 2 seconds, the editor state is automatically saved to MongoDB.
+
+Any user reloading the page sees the latest version of the document.
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
